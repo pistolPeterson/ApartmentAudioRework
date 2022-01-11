@@ -4,7 +4,9 @@
 # Apartment Audio Implementation
 This is a full audio implemention of a apartment scene. I'll be usisng Wwise to make interesting and immersive choices for the audio soundscape
 
-### Currently working on: getting assets, setting up wwise and unity to source control, making plans for creative decisions
+
+### Currently working on: 
+getting assets, setting up wwise and unity to source control, making plans for creative decisions
 
 
 ## Installation For Audio Programmers, Audio Designers, Music implementors 
