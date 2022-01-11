@@ -15,7 +15,7 @@ Information coming soon. The assumption will be that you know how Wwise works an
 Information coming soon. Im trying to see if I can make a seperate branch with only the unity project and the specific soundbanks so you dont have to use the WWise software
 
 ## For playtesters
-Link will be here once I have a good demo in place 
+Link will be here for a build of the game once I have a good demo in place 
 
 # Visuals
 Coming soon 
