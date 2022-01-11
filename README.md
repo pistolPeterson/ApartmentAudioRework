@@ -10,6 +10,7 @@ getting assets, setting up wwise and unity to source control, making plans for c
 
 
 ## Installation For Audio Programmers, Audio Designers, Music implementors 
+For anyone who wants to have the project with full control. NOT reccomended at all if you have no experience with WWise or audio middleware software. 
 Information coming soon. The assumption will be that you know how Wwise works and how to integrate it with Unity
 
 
