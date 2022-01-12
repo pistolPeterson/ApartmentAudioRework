@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_DUMMY_KICK" ID="{8D62C6F8-55CC-4724-8FB7-86DEAA1A832A}">
+					<ChildrenList>
+						<Action Name="" ID="{09ED5C44-8954-430A-AF55-7FD606687419}" ShortID="623709466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DUMMY KICK" ID="{70EF7126-FB84-4037-89AD-EFD8801E4CB2}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{90B7B1B9-4964-4311-A77B-5477172CF4AC}" ShortID="908390011"/>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

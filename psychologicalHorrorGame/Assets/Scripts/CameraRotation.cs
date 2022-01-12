@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraRotation : MonoBehaviour
 {
     public Transform playerBody; //transform camera with player body
-    public float mouseSensitivity = 100f;
+    public float mouseSensitivity = 200f;
     private float xRotation = 0f; //move up and down
 
     // Start is called before the first frame update
