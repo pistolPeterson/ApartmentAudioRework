@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6DFE26BD-57AB-4A66-9946-EF5B073F0D70}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{6DFE26BD-57AB-4A66-9946-EF5B073F0D70}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6DFE26BD-57AB-4A66-9946-EF5B073F0D70}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{6C771AE0-4A97-4DF9-B083-B25EF3AA63B6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_DUMMY_KICK" ID="{8D62C6F8-55CC-4724-8FB7-86DEAA1A832A}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

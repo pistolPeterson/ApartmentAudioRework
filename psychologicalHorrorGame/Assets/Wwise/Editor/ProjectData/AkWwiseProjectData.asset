@@ -80,8 +80,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 36b847dab3fa7b4c80058f37e905345e
     GuidInternal: 
-    m_lastTime: -8585596616789238292
-    List: []
+    m_lastTime: -8585596542941637116
+    List:
+    - name: Play_DUMMY_KICK
+      guid: f8c6628dcc5524478fb786deaa1a832a
+      id: 4154822187
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 36b847dab3fa7b4c80058f37e905345e
+      - ElementName: Play_DUMMY_KICK
+        ObjectType: 3
+        guid: f8c6628dcc5524478fb786deaa1a832a
+      Path: Events\Default Work Unit\Play_DUMMY_KICK
+      maxAttenuation: 0
+      maxDuration: 1.263197
+      minDuration: 1.263197
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
