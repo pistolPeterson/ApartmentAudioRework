@@ -13,10 +13,7 @@ public class TVInteractable : Interactable
     {
        
         prefab = Instantiate(prefab, spawnpoint.position, spawnpoint.rotation);
-        //  prefab.SetActive(false);
-
-       // prefab.SetActive(!prefab.activeSelf);
-        //prefab.SetActive(!prefab.activeSelf);
+      
     }
 
     public override void OnInteract()
