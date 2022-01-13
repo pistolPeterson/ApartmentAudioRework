@@ -273,6 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 1180026526}
   prefab: {fileID: 5632575620931239419, guid: 25edef9f07e23de479b947f2e33649e2, type: 3}
+  tvIsOn: 0
 --- !u!4 &87289645 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445052, guid: d0bd8c282c04079498689c97fc865c70, type: 3}
@@ -4164,6 +4165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 0}
   prefab: {fileID: 0}
+  tvIsOn: 0
 --- !u!1 &463393760 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3e36b10092da9e3468f154949204c9b1, type: 3}
@@ -6574,7 +6576,7 @@ MonoBehaviour:
   playerCamera: {fileID: 963194227}
   canInteract: 1
   interactKey: 323
-  interactionRayPoint: {x: 1, y: 1, z: 0}
+  interactionRayPoint: {x: 0.5, y: 0.5, z: 0}
   interactionDistance: 3
   interactionLayer:
     serializedVersion: 2
