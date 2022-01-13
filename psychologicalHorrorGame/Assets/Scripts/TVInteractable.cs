@@ -18,16 +18,16 @@ public class TVInteractable : Interactable
 
     public override void OnInteract()
     {
-        print("Interacted with " + gameObject.name + " Time to make a layer of white stuff appear");
+        //print("Interacted with " + gameObject.name + " Time to make a layer of white stuff appear");
         prefab.SetActive(!prefab.activeSelf);
         if (tvIsOn == false)
         {
-            Debug.Log("tv is turned on");
+           // Debug.Log("tv is turned on");
             prefab.SetActive(true);
             tvIsOn = true;
         } else
         {
-            Debug.Log("tv is turned off");
+            //Debug.Log("tv is turned off");
             tvIsOn =false;
         }
 
@@ -36,12 +36,12 @@ public class TVInteractable : Interactable
     }
     public override void OnFocus()
     {
-        print("LOOKING AT " + gameObject.name);
+       // print("LOOKING AT " + gameObject.name);
         
     }
     public override void OnLoseFocus()
     {
-        print("STOPPED LOOKING AT " + gameObject.name);
+       //print("STOPPED LOOKING AT " + gameObject.name);
        
     }
 
