@@ -27,7 +27,7 @@ public class BookInteractable : Interactable
         asm.changeCreepyState();
 
 
-        print("Interacted with " + gameObject.name );
+       // print("Interacted with " + gameObject.name );
 
         gameObject.SetActive(false);
 
@@ -36,12 +36,12 @@ public class BookInteractable : Interactable
     }
     public override void OnFocus()
     {
-        print("LOOKING AT " + gameObject.name);
+      // print("LOOKING AT " + gameObject.name);
 
     }
     public override void OnLoseFocus()
     {
-        print("STOPPED LOOKING AT " + gameObject.name);
+      //  print("STOPPED LOOKING AT " + gameObject.name);
 
     }
 }

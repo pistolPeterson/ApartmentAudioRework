@@ -12,7 +12,7 @@ public class ClockTriggerScript : MonoBehaviour
 
     private float timer = 0.0f;
     private float waitTimeDialogue = 3.0f;
-    private float waitTimeMusic = 4.0f;
+  //  private float waitTimeMusic = 4.0f;
 
 
    

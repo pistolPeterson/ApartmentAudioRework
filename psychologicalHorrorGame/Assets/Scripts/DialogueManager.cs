@@ -11,6 +11,19 @@ public class DialogueManager : MonoBehaviour
     private bool checkDialogue2 = false ;
     private string Dialogue2 = "Is it just me or is the ticking starting to get louder?";
 
+    private bool checkDialogue3 = false ;
+    private string Dialogue3 = "I should have just bought netflix";
+
+    private bool checkDialogue4 = false;
+    private string Dialogue4 = "*sarcastically* hmmm, maybe if I open it again for 356th time, it will work… I suck at sarcasm";
+
+    private bool checkDialogue5 = false;
+    private string Dialogue5 = "Why doesn't this sound as calm as my clock?" ;
+
+   
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,11 +57,46 @@ public class DialogueManager : MonoBehaviour
     
     public void playDialogue2()
     {
-        //event will be played here 
+         
         checkDialogue2 = true;
         Debug.Log(Dialogue2);
     }
 
+    public bool getDialogue3State()
+    {
+        return checkDialogue3;
+    }
+
+    public void playDialogue3()
+    {
+        
+        checkDialogue3 = true;
+        Debug.Log(Dialogue3);
+    }
+
+    public bool getDialogue4State()
+    {
+        return checkDialogue4;
+    }
+
+    public void playDialogue4()
+    {
+
+        checkDialogue4 = true;
+        Debug.Log(Dialogue4);
+    }
+
+    public bool getDialogue5State()
+    {
+        return checkDialogue5;
+    }
+
+    public void playDialogue5()
+    {
+
+        checkDialogue5 = true;
+        Debug.Log(Dialogue5);
+    }
 
 
 
