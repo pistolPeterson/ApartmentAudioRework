@@ -42,14 +42,14 @@ public class ClockTriggerScript : MonoBehaviour
         {
             if((timer > waitTimeDialogue) && (dm.getDialogue1State() == false) && (asm.getCreepyState() == false)) 
             {
-                dm.changeDialogue1State();
+              
                 dm.playDialogue1();
-                //Debug.Log("Time passed in trigger is " + timer);
+               
             }
             //Debug.Log(timer);
             if ((timer > waitTimeDialogue) && (dm.getDialogue2State() == false)  && (asm.getCreepyState() == true)) 
             {
-                dm.changeDialogue2State();
+               
                 dm.playDialogue2();
 
             }

@@ -28,14 +28,11 @@ public class DialogueManager : MonoBehaviour
     {
         return checkDialogue1;
     }
-   public void changeDialogue1State()
-    {
-        checkDialogue1 = true;
-        
-    }
+   
    public void playDialogue1()
     {
         //event will be played here 
+        checkDialogue1 = true;
         Debug.Log(Dialogue1);
     }
 
@@ -44,14 +41,11 @@ public class DialogueManager : MonoBehaviour
     {
         return checkDialogue2;
     }
-    public void changeDialogue2State()
-    {
-        checkDialogue2 = true;
-
-    }
+    
     public void playDialogue2()
     {
         //event will be played here 
+        checkDialogue2 = true;
         Debug.Log(Dialogue2);
     }
 
