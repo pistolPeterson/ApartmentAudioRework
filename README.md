@@ -10,7 +10,7 @@ This is a full audio implemention of a apartment scene. I'll be usisng Wwise to 
 - [x] Create script to represent TV on and off state
 - [x] Create Main Menu Scene that transitions to the game
 - [x] Add trigger zones to specific areas
-## Phase 1: Audio (Current working on)
+## Phase 1: Audio (Currently working on)
 - [ ] Passive SFX: Refrigerator hum, Footsteps, Clock,tv turned on/off (with user delay)
 - [ ] Active SFX: police siren, neighbors arguing + hip hop music, rustling plant  
 - [ ] SFX state change: clock gets louder/disorted + 2d audio, 
