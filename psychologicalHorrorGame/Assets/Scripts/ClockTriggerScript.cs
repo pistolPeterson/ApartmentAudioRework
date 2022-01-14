@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ClockTriggerScript : MonoBehaviour
 {
-    private bool checkDialogue1 = false;
+    
+
+    AudioStateManager asm;
+    DialogueManager dm; 
 
 
     private float timer = 0.0f;
@@ -12,35 +15,56 @@ public class ClockTriggerScript : MonoBehaviour
     private float waitTimeMusic = 4.0f;
 
 
-    private string Dialogue1 = "well todays the big day.I hope Dr.K is a good shrink.I should get the books he recommended me to read"; 
-    //make two seperate strings to check for game state? 
+   
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        asm = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioStateManager>();
+        dm = GameObject.FindGameObjectWithTag("Player").GetComponent<DialogueManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-      
+
+       // Debug.Log(timer);
     }
 
 
     void OnTriggerStay(Collider other)
     {
+       
         timer += Time.deltaTime;
-        if (other.CompareTag("Player"))
+       // Debug.Log(timer);
+        if (other.CompareTag("Player")) //If player is in clock trigger zone 
         {
-            if((timer > waitTimeDialogue) && (checkDialogue1 == false))
+            if((timer > waitTimeDialogue) && (dm.getDialogue1State() == false) && (asm.getCreepyState() == false)) 
             {
-                checkDialogue1 = true;
-                Debug.Log("Time passed in trigger is " + timer);
+                dm.changeDialogue1State();
+                dm.playDialogue1();
+                //Debug.Log("Time passed in trigger is " + timer);
             }
-           
+            //Debug.Log(timer);
+            if ((timer > waitTimeDialogue) && (dm.getDialogue2State() == false)  && (asm.getCreepyState() == true)) 
+            {
+                dm.changeDialogue2State();
+                dm.playDialogue2();
+
+            }
+
+
+
+
         }
     }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            timer = 0; //reset timer
+    }
+
 
 }

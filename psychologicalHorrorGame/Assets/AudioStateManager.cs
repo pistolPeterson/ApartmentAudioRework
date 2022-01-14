@@ -15,7 +15,7 @@ public class AudioStateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Creepy state is " + creepyState);
+       // Debug.Log("Creepy state is " + creepyState);
     }
 
 

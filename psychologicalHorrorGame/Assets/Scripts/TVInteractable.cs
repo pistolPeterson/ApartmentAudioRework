@@ -45,6 +45,12 @@ public class TVInteractable : Interactable
        
     }
 
+
+    public bool checkTvIsOn()
+    {
+        return tvIsOn;
+    }
+
    
 
 }
