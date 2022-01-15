@@ -8,10 +8,14 @@ public class TVInteractable : Interactable
     public GameObject prefab;
     public bool tvIsOn = false;
 
+    [Header("Wwise Events")]
+    public AK.Wwise.Event playTV;
+    public AK.Wwise.Event stopTV;
+
     //TODO add a little bit of delay so user cant spam it 
     void Start()
     {
-       
+        stopTV.Post(gameObject);
         prefab = Instantiate(prefab, spawnpoint.position, spawnpoint.rotation);
       
     }
@@ -22,12 +26,14 @@ public class TVInteractable : Interactable
         prefab.SetActive(!prefab.activeSelf);
         if (tvIsOn == false)
         {
-           // Debug.Log("tv is turned on");
+            // Debug.Log("tv is turned on");
+            playTV.Post(gameObject); //turn on tv sound event 
             prefab.SetActive(true);
             tvIsOn = true;
         } else
         {
             //Debug.Log("tv is turned off");
+            stopTV.Post(gameObject);//stop tv sound event 
             tvIsOn =false;
         }
 

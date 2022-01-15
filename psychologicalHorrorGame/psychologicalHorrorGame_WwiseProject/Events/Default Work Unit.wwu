@@ -43,6 +43,25 @@
 				<Event Name="Play_TV_Static" ID="{F5B2566F-AA17-457D-ABF2-AD29B533F853}">
 					<ChildrenList>
 						<Action Name="" ID="{548D0D3E-4AAA-414C-8108-4D9078D59912}" ShortID="294445267">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV Static" ID="{0BAFB1CC-36B4-4FDA-93D3-A7EFBF1B24F4}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TV_Static" ID="{ECA9F739-9B38-48CE-A8BB-0789F9A80BF5}">
+					<ChildrenList>
+						<Action Name="" ID="{CBA183C7-8FBE-4658-A12A-8E70A2BEE108}" ShortID="64703517">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="TV Static" ID="{0BAFB1CC-36B4-4FDA-93D3-A7EFBF1B24F4}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>

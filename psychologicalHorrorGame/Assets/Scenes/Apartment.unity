@@ -280,7 +280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70222386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.18, y: 0, z: -0.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466039819}
@@ -309,7 +309,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &87289642 stripped
 GameObject:
@@ -331,6 +331,14 @@ MonoBehaviour:
   spawnpoint: {fileID: 1180026526}
   prefab: {fileID: 5632575620931239419, guid: 25edef9f07e23de479b947f2e33649e2, type: 3}
   tvIsOn: 0
+  playTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 32d3a3afe5f2e9940bc4fbb13266861b, type: 2}
+  stopTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: def86c087734d1f438b83328e20247b0, type: 2}
 --- !u!4 &87289645 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445052, guid: d0bd8c282c04079498689c97fc865c70, type: 3}
@@ -377,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b876c2a9039eff4889f177118234474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: 
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
@@ -3750,7 +3758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 456804, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9068413
+      value: -1.32
       objectReference: {fileID: 0}
     - target: {fileID: 456804, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4439,6 +4447,14 @@ MonoBehaviour:
   spawnpoint: {fileID: 0}
   prefab: {fileID: 0}
   tvIsOn: 0
+  playTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  stopTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &463393760 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3e36b10092da9e3468f154949204c9b1, type: 3}
@@ -7084,7 +7100,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802856323}
   m_LocalRotation: {x: -0, y: -0.004296162, z: -0, w: 0.99999076}
-  m_LocalPosition: {x: 3.89, y: 1.08, z: -8.08}
+  m_LocalPosition: {x: 3.88, y: 1.08, z: -7.35}
   m_LocalScale: {x: 0.71586, y: 0.71586, z: 0.71586}
   m_Children:
   - {fileID: 963194228}

@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Clock" ID="{1C1951CF-A48A-412A-8E7A-8CC0A5E73A89}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Static" ID="{F5B2566F-AA17-457D-ABF2-AD29B533F853}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_TV_Static" ID="{ECA9F739-9B38-48CE-A8BB-0789F9A80BF5}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Refrigerator" ID="{EE105AE3-E4F7-4F12-89BB-D10FC087C490}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
