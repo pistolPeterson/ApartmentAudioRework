@@ -5,12 +5,15 @@
 This is a full audio implemention of a apartment scene. I'll be usisng Wwise to make interesting and immersive choices for the audio soundscape
 
 
-## Phase 0: Unity (currently working on)
+## Phase 0: Unity (Completed)
 - [x] Integrate Wwise with the Unity project
 - [x] Create script to represent TV on and off state
 - [x] Create Main Menu Scene that transitions to the game
-- [ ] Add trigger zones on specific areas that are also delay based
-## Phase 1: Audio
+- [x] Add trigger zones to specific areas
+
+
+Phase 0 demo vid: https://www.youtube.com/watch?v=rMLAnU6INok
+## Phase 1: Audio (Currently working on)
 - [ ] Passive SFX: Refrigerator hum, Footsteps, Clock,tv turned on/off (with user delay)
 - [ ] Active SFX: police siren, neighbors arguing + hip hop music, rustling plant  
 - [ ] SFX state change: clock gets louder/disorted + 2d audio, 
