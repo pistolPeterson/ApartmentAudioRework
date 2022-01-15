@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_DUMMY_KICK = 4154822187U;
+        static const AkUniqueID PLAY_CLOCK = 4070979672U;
+        static const AkUniqueID PLAY_REFRIGERATOR = 2992121592U;
+        static const AkUniqueID PLAY_TV_STATIC = 1897478513U;
     } // namespace EVENTS
 
     namespace BANKS

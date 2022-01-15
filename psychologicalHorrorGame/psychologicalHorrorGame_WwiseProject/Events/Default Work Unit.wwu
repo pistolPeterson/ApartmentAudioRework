@@ -3,16 +3,52 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_DUMMY_KICK" ID="{8D62C6F8-55CC-4724-8FB7-86DEAA1A832A}">
+				<Event Name="Play_Refrigerator" ID="{EE105AE3-E4F7-4F12-89BB-D10FC087C490}">
 					<ChildrenList>
-						<Action Name="" ID="{09ED5C44-8954-430A-AF55-7FD606687419}" ShortID="623709466">
+						<Action Name="" ID="{EE3D78E7-7D4D-4EC7-9A8C-29C8D73DF832}" ShortID="348196725">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{039C8C52-DC2C-42B3-819E-ADD07672EE32}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DUMMY KICK" ID="{70EF7126-FB84-4037-89AD-EFD8801E4CB2}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+									<ObjectRef Name="Refrigerator SFX Pete" ID="{D5142BC2-4714-4E9A-B92B-4EBC347BA597}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{90B7B1B9-4964-4311-A77B-5477172CF4AC}" ShortID="908390011"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clock" ID="{1C1951CF-A48A-412A-8E7A-8CC0A5E73A89}">
+					<ChildrenList>
+						<Action Name="" ID="{80A17CE5-3D8E-4D8D-8B2E-2ED89C729588}" ShortID="740107129">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock Loop Dry" ID="{FBC4ECAB-1D30-448C-94CF-78C92736EB19}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TV_Static" ID="{F5B2566F-AA17-457D-ABF2-AD29B533F853}">
+					<ChildrenList>
+						<Action Name="" ID="{548D0D3E-4AAA-414C-8108-4D9078D59912}" ShortID="294445267">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV Static" ID="{0BAFB1CC-36B4-4FDA-93D3-A7EFBF1B24F4}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

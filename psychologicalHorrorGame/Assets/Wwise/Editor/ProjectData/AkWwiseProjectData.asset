@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bd26fe6dab57664a9946ef5b073f0d70
     GuidInternal: 
-    m_lastTime: -8585596478784783637
+    m_lastTime: -8585593906476386453
     List:
     - name: Main
       guid: e01a776c974af94db083b25ef3aa63b6
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 36b847dab3fa7b4c80058f37e905345e
     GuidInternal: 
-    m_lastTime: -8585596542941637116
+    m_lastTime: -8585593909022712824
     List:
-    - name: Play_DUMMY_KICK
-      guid: f8c6628dcc5524478fb786deaa1a832a
-      id: 4154822187
+    - name: Play_Clock
+      guid: cf51191c8aa42a418e7a8cc0a5e73a89
+      id: 4070979672
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,13 +106,47 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 36b847dab3fa7b4c80058f37e905345e
-      - ElementName: Play_DUMMY_KICK
+      - ElementName: Play_Clock
         ObjectType: 3
-        guid: f8c6628dcc5524478fb786deaa1a832a
-      Path: Events\Default Work Unit\Play_DUMMY_KICK
-      maxAttenuation: 0
-      maxDuration: 1.263197
-      minDuration: 1.263197
+        guid: cf51191c8aa42a418e7a8cc0a5e73a89
+      Path: Events\Default Work Unit\Play_Clock
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Refrigerator
+      guid: e35a10eef7e4124f89bbd10fc087c490
+      id: 2992121592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 36b847dab3fa7b4c80058f37e905345e
+      - ElementName: Play_Refrigerator
+        ObjectType: 3
+        guid: e35a10eef7e4124f89bbd10fc087c490
+      Path: Events\Default Work Unit\Play_Refrigerator
+      maxAttenuation: 6
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TV_Static
+      guid: 6f56b2f517aa7d45abf2ad29b533f853
+      id: 1897478513
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 36b847dab3fa7b4c80058f37e905345e
+      - ElementName: Play_TV_Static
+        ObjectType: 3
+        guid: 6f56b2f517aa7d45abf2ad29b533f853
+      Path: Events\Default Work Unit\Play_TV_Static
+      maxAttenuation: 6
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +204,7 @@ MonoBehaviour:
     m_lastTime: -8585596616790425175
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
