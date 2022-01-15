@@ -138,6 +138,53 @@
 						<ActiveSource Name="TV Static" ID="{39532FE0-F9FC-4AF6-939E-7A15C26E44F0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Couple Arguing BOB" ID="{EFA627C4-3A20-4565-B8E3-87201BD96ACA}" ShortID="821207954">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="The Bob Incident" ID="{113E40E4-C038-420F-9E01-FBC57AAD31BF}" WorkUnitID="{34807108-25C4-4928-831E-55856D4D8AD2}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Couple Arguing BOB" ID="{54F0B0F3-C1E2-44D7-8513-0449B99094A1}">
+							<Language>SFX</Language>
+							<AudioFile>Couple Arguing BOB.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="840431369"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Couple Arguing BOB" ID="{54F0B0F3-C1E2-44D7-8513-0449B99094A1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

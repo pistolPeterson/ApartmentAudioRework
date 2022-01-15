@@ -70,6 +70,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Couple_Arguing_BOB" ID="{35AE2A83-B406-4585-AEDA-2DA9A2739C4E}">
+					<ChildrenList>
+						<Action Name="" ID="{012C02F6-A379-45FC-9480-8BA0A03CED89}" ShortID="409413665">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Couple Arguing BOB" ID="{EFA627C4-3A20-4565-B8E3-87201BD96ACA}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

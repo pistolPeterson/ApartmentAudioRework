@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bd26fe6dab57664a9946ef5b073f0d70
     GuidInternal: 
-    m_lastTime: -8585593549702195924
+    m_lastTime: -8585593527768807502
     List:
     - name: Main
       guid: e01a776c974af94db083b25ef3aa63b6
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 36b847dab3fa7b4c80058f37e905345e
     GuidInternal: 
-    m_lastTime: -8585593547284227141
+    m_lastTime: -8585593527768897258
     List:
     - name: Play_Clock
       guid: cf51191c8aa42a418e7a8cc0a5e73a89
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
+    - name: Play_Couple_Arguing_BOB
+      guid: 832aae3506b48545aeda2da9a2739c4e
+      id: 1486295004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 36b847dab3fa7b4c80058f37e905345e
+      - ElementName: Play_Couple_Arguing_BOB
+        ObjectType: 3
+        guid: 832aae3506b48545aeda2da9a2739c4e
+      Path: Events\Default Work Unit\Play_Couple_Arguing_BOB
+      maxAttenuation: 5
+      maxDuration: 55.000023
+      minDuration: 55.000023
     - name: Play_Refrigerator
       guid: e35a10eef7e4124f89bbd10fc087c490
       id: 2992121592

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CLOCK = 4070979672U;
+        static const AkUniqueID PLAY_COUPLE_ARGUING_BOB = 1486295004U;
         static const AkUniqueID PLAY_REFRIGERATOR = 2992121592U;
         static const AkUniqueID PLAY_TV_STATIC = 1897478513U;
         static const AkUniqueID STOP_TV_STATIC = 1329369387U;
