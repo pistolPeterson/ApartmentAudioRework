@@ -15,11 +15,26 @@ namespace AK
     {
         static const AkUniqueID PLAY_CLOCK = 4070979672U;
         static const AkUniqueID PLAY_COUPLE_ARGUING_BOB = 1486295004U;
-        static const AkUniqueID PLAY_FOOTSTEPS_WOOD = 2064026589U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_REFRIGERATOR = 2992121592U;
         static const AkUniqueID PLAY_TV_STATIC = 1897478513U;
         static const AkUniqueID STOP_TV_STATIC = 1329369387U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 2385628198U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CARPET = 2412606308U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPS
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

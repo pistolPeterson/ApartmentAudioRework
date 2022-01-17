@@ -123,6 +123,98 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &12380255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: efb2679043028084482e10399ab6d4ee, type: 3}
+  m_PrefabInstance: {fileID: 1254120854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &12380256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12380255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4, y: 0.5, z: 2.0000005}
+  m_Center: {x: 0, y: 0.00999994, z: 0}
+--- !u!114 &12380259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12380255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641109a242553eb4fa8652648ec949fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerObject: {fileID: 1802856323}
+--- !u!114 &12380260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12380255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3987bdbd1d298df4aa766a4debcd6f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 1
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1efb66f66e0b24147bf40739f02bb502, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
+--- !u!114 &12380261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12380255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9cc5daa91168a45810880561fbadde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerObject: {fileID: 1802856323}
+--- !u!114 &12380262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12380255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3987bdbd1d298df4aa766a4debcd6f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 3f2ff36a
+  useOtherObject: 1
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 428262b5ddb8dc848a66afda11e6191c, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!4 &30179350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: bc7c26d9e5732fb4e9694d56f647dd27, type: 3}
@@ -7120,13 +7212,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  wwiseFootNumber: 375
+  wwiseFootNumber: 250
   characterContoller: {fileID: 1802856329}
   playerCamera: {fileID: 963194227}
   myFootstep:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 861cc759e9afccf45948c2b82ac0bffc, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 1ecf240a33fa4b2448d3dc2b63fd1b4c, type: 2}
   canInteract: 1
   interactKey: 323
   interactionRayPoint: {x: 0.5, y: 0.5, z: 0}
@@ -7163,7 +7255,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.2, y: 2.66, z: 2.74}
+  m_Size: {x: 1.24, y: 2.16, z: 2.15}
   m_Center: {x: -0.007181932, y: 0, z: -0.004200118}
 --- !u!114 &1802856331
 MonoBehaviour:

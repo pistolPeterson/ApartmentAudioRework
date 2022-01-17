@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bd26fe6dab57664a9946ef5b073f0d70
     GuidInternal: 
-    m_lastTime: -8585592158549819664
+    m_lastTime: -8585591662345923999
     List:
     - name: Main
       guid: e01a776c974af94db083b25ef3aa63b6
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 36b847dab3fa7b4c80058f37e905345e
     GuidInternal: 
-    m_lastTime: -8585592163705773503
+    m_lastTime: -8585591662880411124
     List:
     - name: Enviroment
       guid: 8aee2e58b855d4469dbec4e6b1c8d9e9
@@ -167,7 +167,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cf51191c8aa42a418e7a8cc0a5e73a89
       Path: Events\Default Work Unit\Furniture Evenets\Play_Clock
-      maxAttenuation: 8
+      maxAttenuation: 7
       maxDuration: -1
       minDuration: -1
     - name: Play_Couple_Arguing_BOB
@@ -193,9 +193,9 @@ MonoBehaviour:
       maxAttenuation: 5
       maxDuration: 55.000023
       minDuration: 55.000023
-    - name: Play_Footsteps_Wood
-      guid: 833471a08bc649438b6700399e87bea5
-      id: 2064026589
+    - name: Play_Footsteps
+      guid: 73664f56c4c28e4ca2046870b4bf84a0
+      id: 3854155799
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -206,13 +206,13 @@ MonoBehaviour:
       - ElementName: Footsteps
         ObjectType: 4
         guid: 8e62a74132dc04448f77d08a4cbbcee3
-      - ElementName: Play_Footsteps_Wood
+      - ElementName: Play_Footsteps
         ObjectType: 3
-        guid: 833471a08bc649438b6700399e87bea5
-      Path: Events\Default Work Unit\Footsteps\Play_Footsteps_Wood
+        guid: 73664f56c4c28e4ca2046870b4bf84a0
+      Path: Events\Default Work Unit\Footsteps\Play_Footsteps
       maxAttenuation: 0
       maxDuration: 0.846977
-      minDuration: 0.382544
+      minDuration: 0.373156
     - name: Play_Refrigerator
       guid: e35a10eef7e4124f89bbd10fc087c490
       id: 2992121592
@@ -313,8 +313,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a5555916d17fdc44b48563073ebd5846
     GuidInternal: 
-    m_lastTime: -8585596616789178452
-    List: []
+    m_lastTime: -8585591664734310905
+    List:
+    - name: Footsteps
+      guid: d02c196642ab2641bed0f68b9055a8a3
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a5555916d17fdc44b48563073ebd5846
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: d02c196642ab2641bed0f68b9055a8a3
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: Carpet
+        guid: 94dcf23da7715549b40f561083e217ce
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a5555916d17fdc44b48563073ebd5846
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: d02c196642ab2641bed0f68b9055a8a3
+        - ElementName: Carpet
+          ObjectType: 10
+          guid: 94dcf23da7715549b40f561083e217ce
+      - name: Wood
+        guid: 65e6932b9881ce4d8ef02bc98ef370d9
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a5555916d17fdc44b48563073ebd5846
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: d02c196642ab2641bed0f68b9055a8a3
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 65e6932b9881ce4d8ef02bc98ef370d9
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:

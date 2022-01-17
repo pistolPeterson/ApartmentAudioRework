@@ -91,12 +91,12 @@
 				</Folder>
 				<Folder Name="Footsteps" ID="{41A7628E-DC32-4404-8F77-D08A4CBBCEE3}" ShortID="447456808">
 					<ChildrenList>
-						<Event Name="Play_Footsteps_Wood" ID="{A0713483-C68B-4349-8B67-00399E87BEA5}">
+						<Event Name="Play_Footsteps" ID="{564F6673-C2C4-4C8E-A204-6870B4BF84A0}">
 							<ChildrenList>
-								<Action Name="" ID="{CD822B9D-CF89-430E-BA4F-1B415DEF2A45}" ShortID="967193302">
+								<Action Name="" ID="{C64E4CB1-6E08-4075-939F-B3EC52D305D4}" ShortID="444322189">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps Wood" ID="{2C44F3D1-5348-4C46-ACF3-B57B32C98F37}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+											<ObjectRef Name="Footsteps" ID="{8EA4579C-306E-4CA3-89A7-9441551630FA}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
