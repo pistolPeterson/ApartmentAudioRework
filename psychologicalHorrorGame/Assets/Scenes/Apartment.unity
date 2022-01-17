@@ -7120,8 +7120,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  wwiseFootNumber: 375
   characterContoller: {fileID: 1802856329}
   playerCamera: {fileID: 963194227}
+  myFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 861cc759e9afccf45948c2b82ac0bffc, type: 2}
   canInteract: 1
   interactKey: 323
   interactionRayPoint: {x: 0.5, y: 0.5, z: 0}

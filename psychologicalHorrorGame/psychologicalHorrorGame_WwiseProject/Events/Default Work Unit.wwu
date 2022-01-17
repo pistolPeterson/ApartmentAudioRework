@@ -3,84 +3,107 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Refrigerator" ID="{EE105AE3-E4F7-4F12-89BB-D10FC087C490}">
+				<Folder Name="Furniture Evenets" ID="{4C08982C-990C-4697-B154-7C8450A83B03}" ShortID="345675086">
 					<ChildrenList>
-						<Action Name="" ID="{EE3D78E7-7D4D-4EC7-9A8C-29C8D73DF832}" ShortID="348196725">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="2.5">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{039C8C52-DC2C-42B3-819E-ADD07672EE32}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Refrigerator SFX Pete" ID="{D5142BC2-4714-4E9A-B92B-4EBC347BA597}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_TV_Static" ID="{F5B2566F-AA17-457D-ABF2-AD29B533F853}">
+							<ChildrenList>
+								<Action Name="" ID="{548D0D3E-4AAA-414C-8108-4D9078D59912}" ShortID="294445267">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TV Static" ID="{0BAFB1CC-36B4-4FDA-93D3-A7EFBF1B24F4}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Clock" ID="{1C1951CF-A48A-412A-8E7A-8CC0A5E73A89}">
+							<ChildrenList>
+								<Action Name="" ID="{80A17CE5-3D8E-4D8D-8B2E-2ED89C729588}" ShortID="740107129">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clock Loop Dry" ID="{FBC4ECAB-1D30-448C-94CF-78C92736EB19}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Refrigerator" ID="{EE105AE3-E4F7-4F12-89BB-D10FC087C490}">
+							<ChildrenList>
+								<Action Name="" ID="{EE3D78E7-7D4D-4EC7-9A8C-29C8D73DF832}" ShortID="348196725">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{039C8C52-DC2C-42B3-819E-ADD07672EE32}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Refrigerator SFX Pete" ID="{D5142BC2-4714-4E9A-B92B-4EBC347BA597}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_TV_Static" ID="{ECA9F739-9B38-48CE-A8BB-0789F9A80BF5}">
+							<ChildrenList>
+								<Action Name="" ID="{CBA183C7-8FBE-4658-A12A-8E70A2BEE108}" ShortID="64703517">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TV Static" ID="{0BAFB1CC-36B4-4FDA-93D3-A7EFBF1B24F4}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Enviroment" ID="{582EEE8A-55B8-46D4-9DBE-C4E6B1C8D9E9}" ShortID="717082961">
+							<ChildrenList>
+								<Event Name="Play_Couple_Arguing_BOB" ID="{35AE2A83-B406-4585-AEDA-2DA9A2739C4E}">
+									<ChildrenList>
+										<Action Name="" ID="{012C02F6-A379-45FC-9480-8BA0A03CED89}" ShortID="409413665">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Couple Arguing BOB" ID="{EFA627C4-3A20-4565-B8E3-87201BD96ACA}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Clock" ID="{1C1951CF-A48A-412A-8E7A-8CC0A5E73A89}">
+				</Folder>
+				<Folder Name="Footsteps" ID="{41A7628E-DC32-4404-8F77-D08A4CBBCEE3}" ShortID="447456808">
 					<ChildrenList>
-						<Action Name="" ID="{80A17CE5-3D8E-4D8D-8B2E-2ED89C729588}" ShortID="740107129">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Clock Loop Dry" ID="{FBC4ECAB-1D30-448C-94CF-78C92736EB19}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Footsteps_Wood" ID="{A0713483-C68B-4349-8B67-00399E87BEA5}">
+							<ChildrenList>
+								<Action Name="" ID="{CD822B9D-CF89-430E-BA4F-1B415DEF2A45}" ShortID="967193302">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps Wood" ID="{2C44F3D1-5348-4C46-ACF3-B57B32C98F37}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_TV_Static" ID="{F5B2566F-AA17-457D-ABF2-AD29B533F853}">
-					<ChildrenList>
-						<Action Name="" ID="{548D0D3E-4AAA-414C-8108-4D9078D59912}" ShortID="294445267">
-							<PropertyList>
-								<Property Name="FadeInCurve" Type="int16" Value="6"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TV Static" ID="{0BAFB1CC-36B4-4FDA-93D3-A7EFBF1B24F4}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_TV_Static" ID="{ECA9F739-9B38-48CE-A8BB-0789F9A80BF5}">
-					<ChildrenList>
-						<Action Name="" ID="{CBA183C7-8FBE-4658-A12A-8E70A2BEE108}" ShortID="64703517">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TV Static" ID="{0BAFB1CC-36B4-4FDA-93D3-A7EFBF1B24F4}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Couple_Arguing_BOB" ID="{35AE2A83-B406-4585-AEDA-2DA9A2739C4E}">
-					<ChildrenList>
-						<Action Name="" ID="{012C02F6-A379-45FC-9480-8BA0A03CED89}" ShortID="409413665">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Couple Arguing BOB" ID="{EFA627C4-3A20-4565-B8E3-87201BD96ACA}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

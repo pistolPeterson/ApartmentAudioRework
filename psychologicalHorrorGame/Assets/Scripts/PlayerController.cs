@@ -8,8 +8,17 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
     public float speed; //player speed
+    public int wwiseFootNumber;
     public CharacterController characterContoller;
     public Camera playerCamera;
+    Vector3 movement;
+
+    //Wwise 
+    private bool footstepIsPlaying = false;
+    private float lastFootstepTime = 0;
+
+    [Header("Wwise Events")]
+    public AK.Wwise.Event myFootstep;
 
     [Header("Functional Options")]
     [SerializeField] private bool canInteract = true;
@@ -27,7 +36,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //playerCamera = GetComponent<Camera>();
+
+        lastFootstepTime = Time.time;
     }
 
     // Update is called once per frame
@@ -40,7 +50,7 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
 
         //move horizontal and vertical
-        Vector3 movement = transform.right * horizontalInput + transform.forward * verticalInput;
+         movement = transform.right * horizontalInput + transform.forward * verticalInput;
 
         //mouse movement
         characterContoller.Move(movement * speed * Time.deltaTime);
@@ -50,7 +60,7 @@ public class PlayerController : MonoBehaviour
             HandleInteractionCheck();
             HandleInteractionInput();
         }
-
+        move();
     }
     private void HandleInteractionCheck()
     {
@@ -80,5 +90,29 @@ public class PlayerController : MonoBehaviour
             currentInteractable.OnInteract();
         }
     }
+
+    void move() //simple move check function to use the AK wwise script 
+    {
+        if(movement != Vector3.zero)
+        {
+            if (!footstepIsPlaying)
+            {
+                myFootstep.Post(gameObject);
+                lastFootstepTime = Time.time;
+                footstepIsPlaying = true;
+            }
+            else
+            {
+                if (speed > 1)
+                {
+                    if (Time.time - lastFootstepTime > wwiseFootNumber / speed * Time.deltaTime)
+                    {
+                        footstepIsPlaying = false;
+                    }
+                }
+            }
+        }
+    }
+
 
 }
