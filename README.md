@@ -14,8 +14,8 @@ This is a full audio implemention of a apartment scene. I'll be usisng Wwise to 
 
 Phase 0 demo vid: https://www.youtube.com/watch?v=rMLAnU6INok
 ## Phase 1: Audio (Currently working on)
-- [ ] Passive SFX: Refrigerator hum, Footsteps, Clock,tv turned on/off (with user delay)
-- [ ] Active SFX: police siren, neighbors arguing + hip hop music, rustling plant  
+- [x] Passive SFX: Refrigerator hum,  Clock, tv turned on/off, neighbors arguing
+- [ ] Active SFX: rustling plant, Footsteps
 - [ ] SFX state change: clock gets louder/disorted + 2d audio, 
 
 ## Phase 2: Music
