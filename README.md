@@ -38,7 +38,7 @@ Phase 0 demo vid: https://www.youtube.com/watch?v=rMLAnU6INok
 
 
 
-## Installation For Audio Programmers, Audio Designers, Music implementors 
+## Installation For WWise and Unity users 
 For anyone who wants to have the project with full control. NOT reccomended at all if you have no experience with WWise or audio middleware software. 
 Information coming soon. The assumption will be that you know how Wwise works and how to integrate it with Unity
 
