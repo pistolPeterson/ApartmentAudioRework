@@ -46,13 +46,13 @@ public class TVTriggerScript : MonoBehaviour
                 if ((timer > waitTimeDialogue) && (dm.getDialogue3State() == false) && (asm.getCreepyState() == false))
                 {
                     dm.playDialogue3();
-                    timer = 0;
+                  //  timer = 0;
                 }
 
                 if ((timer > waitTimeDialogue) && (dm.getDialogue5State() == false) && (asm.getCreepyState() == true))
                 {
                     dm.playDialogue5();
-                    timer = 0;
+                  //  timer = 0;
                 }
 
 

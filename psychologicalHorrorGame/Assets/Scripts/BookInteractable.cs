@@ -6,12 +6,16 @@ public class BookInteractable : Interactable
 {
     //this script is for the package
 
+    public AK.Wwise.RTPC myBox;
+
+
     AudioStateManager asm; 
     //make sure layer is interactable as well
     // Start is called before the first frame update
     void Start()
     {
         asm = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioStateManager>();
+        myBox.SetGlobalValue(0);
     }
 
     // Update is called once per frame
@@ -26,8 +30,8 @@ public class BookInteractable : Interactable
         //change state mehtod here
         asm.changeCreepyState();
 
-
-       // print("Interacted with " + gameObject.name );
+        myBox.SetGlobalValue(100);
+        // print("Interacted with " + gameObject.name );
 
         gameObject.SetActive(false);
 

@@ -14,12 +14,29 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CLOCK = 4070979672U;
+        static const AkUniqueID PLAY_CLOCK_LOOP_PARAMETER = 573597025U;
         static const AkUniqueID PLAY_COUPLE_ARGUING_BOB = 1486295004U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_REFRIGERATOR = 2992121592U;
         static const AkUniqueID PLAY_TV_STATIC = 1897478513U;
         static const AkUniqueID STOP_TV_STATIC = 1329369387U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace BOX
+        {
+            static const AkUniqueID GROUP = 546945280U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOTPICKEDUP = 2076060703U;
+                static const AkUniqueID PICKEDUP = 3593755026U;
+            } // namespace STATE
+        } // namespace BOX
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -35,6 +52,11 @@ namespace AK
         } // namespace FOOTSTEPS
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID BOXPICKUP = 2671589300U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

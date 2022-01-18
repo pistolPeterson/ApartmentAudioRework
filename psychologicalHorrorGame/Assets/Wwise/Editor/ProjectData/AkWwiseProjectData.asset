@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bd26fe6dab57664a9946ef5b073f0d70
     GuidInternal: 
-    m_lastTime: -8585591662345923999
+    m_lastTime: -8585590893326450210
     List:
     - name: Main
       guid: e01a776c974af94db083b25ef3aa63b6
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 36b847dab3fa7b4c80058f37e905345e
     GuidInternal: 
-    m_lastTime: -8585591662880411124
+    m_lastTime: -8585590893326529998
     List:
     - name: Enviroment
       guid: 8aee2e58b855d4469dbec4e6b1c8d9e9
@@ -167,7 +167,24 @@ MonoBehaviour:
         ObjectType: 3
         guid: cf51191c8aa42a418e7a8cc0a5e73a89
       Path: Events\Default Work Unit\Furniture Evenets\Play_Clock
-      maxAttenuation: 7
+      maxAttenuation: 9
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Clock_Loop_Parameter
+      guid: b6c8ffbfb2c83e46ab79804dfd747ad5
+      id: 573597025
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 36b847dab3fa7b4c80058f37e905345e
+      - ElementName: Play_Clock_Loop_Parameter
+        ObjectType: 3
+        guid: b6c8ffbfb2c83e46ab79804dfd747ad5
+      Path: Events\Default Work Unit\Play_Clock_Loop_Parameter
+      maxAttenuation: 9
       maxDuration: -1
       minDuration: -1
     - name: Play_Couple_Arguing_BOB
@@ -285,8 +302,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 660dfe0ade8d8041b39eb1b6f4e8daf7
     GuidInternal: 
-    m_lastTime: -8585596616789487626
-    List: []
+    m_lastTime: -8585590893326759377
+    List:
+    - name: BoxPickUp
+      guid: 0d8dee054807594ab3527febcd880dd3
+      id: 2671589300
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 660dfe0ade8d8041b39eb1b6f4e8daf7
+      - ElementName: BoxPickUp
+        ObjectType: 13
+        guid: 0d8dee054807594ab3527febcd880dd3
+      Path: Game Parameters\Default Work Unit\BoxPickUp
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -299,8 +330,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
     GuidInternal: 
-    m_lastTime: -8585596616790544859
-    List: []
+    m_lastTime: -8585591328672122850
+    List:
+    - name: Box
+      guid: b7262e08502a864cb3b7f1bc4adcb5b2
+      id: 546945280
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+      - ElementName: Box
+        ObjectType: 9
+        guid: b7262e08502a864cb3b7f1bc4adcb5b2
+      Path: States\Default Work Unit\Box
+      values:
+      - name: None
+        guid: 8631120958f82647a79b8be0aff2351c
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: Box
+          ObjectType: 9
+          guid: b7262e08502a864cb3b7f1bc4adcb5b2
+        - ElementName: None
+          ObjectType: 8
+          guid: 8631120958f82647a79b8be0aff2351c
+      - name: NotPickedUp
+        guid: 20b7a1d445d2124a978b71bd745e1120
+        id: 2076060703
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: Box
+          ObjectType: 9
+          guid: b7262e08502a864cb3b7f1bc4adcb5b2
+        - ElementName: NotPickedUp
+          ObjectType: 8
+          guid: 20b7a1d445d2124a978b71bd745e1120
+      - name: PickedUp
+        guid: 1fdbf31702285a4891e0159682396c9b
+        id: 3593755026
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: Box
+          ObjectType: 9
+          guid: b7262e08502a864cb3b7f1bc4adcb5b2
+        - ElementName: PickedUp
+          ObjectType: 8
+          guid: 1fdbf31702285a4891e0159682396c9b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -377,10 +474,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: a8f7a321ea52664b977004689224f82d
     GuidInternal: 
-    m_lastTime: -8585596616790425175
+    m_lastTime: -8585590893325776211
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c0000001600000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -16,7 +16,7 @@ Phase 0 demo vid: https://www.youtube.com/watch?v=rMLAnU6INok
 ## Phase 1: Audio (Currently working on)
 - [x] Passive SFX: Refrigerator hum,  Clock, tv turned on/off, neighbors arguing
 - [x] Active SFX: Footsteps
-- [ ] SFX state change: clock gets louder/disorted + 2d audio, 
+- [x] SFX state change: clock gets louder + 2d audio, set up for Phase 2  
 
 ## Phase 2: Music
 - [ ] Create Music with different layers, based on trigger zones in Phase 0

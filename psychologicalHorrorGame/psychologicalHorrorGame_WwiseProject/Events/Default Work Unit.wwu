@@ -29,6 +29,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{97327EB2-A000-4A8B-9EC9-AB571CF54931}" ShortID="403312740">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clock Loop Dry" ID="{FBC4ECAB-1D30-448C-94CF-78C92736EB19}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Refrigerator" ID="{EE105AE3-E4F7-4F12-89BB-D10FC087C490}">
@@ -104,6 +111,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Clock_Loop_Parameter" ID="{BFFFC8B6-C8B2-463E-AB79-804DFD747AD5}">
+					<ChildrenList>
+						<Action Name="" ID="{9C0A818B-5155-4663-80B2-96B38B9DACAC}" ShortID="610961517">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock Loop Dry" ID="{FBC4ECAB-1D30-448C-94CF-78C92736EB19}" WorkUnitID="{A7BBB436-9579-4608-98D1-D12221357880}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

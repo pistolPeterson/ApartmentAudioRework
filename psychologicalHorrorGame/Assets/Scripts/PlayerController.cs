@@ -97,6 +97,7 @@ public class PlayerController : MonoBehaviour
         {
             if (!footstepIsPlaying)
             {
+                Debug.Log("Footstep placed");
                 myFootstep.Post(gameObject);
                 lastFootstepTime = Time.time;
                 footstepIsPlaying = true;

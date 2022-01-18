@@ -8,7 +8,68 @@
 						<Sound Name="Clock Loop Dry" ID="{FBC4ECAB-1D30-448C-94CF-78C92736EB19}" ShortID="865993702">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B8B267E3-57C6-41A3-AF3A-8DDEA2953A3F}" ShortID="817697610">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="BoxPickUp" ID="{05EE8D0D-0748-4A59-B352-7FEBCD880DD3}" WorkUnitID="{0AFE0D66-8DDE-4180-B39E-B1B6F4E8DAF7}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4C86579D-985B-4F65-803C-9810DBF99BD4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.00014</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>6.0206</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="98">
+									<RTPCList>
+										<RTPC Name="" ID="{738FFF8D-CBAA-4E89-A532-35F8AF6E3293}" ShortID="593924469">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="BoxPickUp" ID="{05EE8D0D-0748-4A59-B352-7FEBCD880DD3}" WorkUnitID="{0AFE0D66-8DDE-4180-B39E-B1B6F4E8DAF7}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{206441B1-75C8-43A0-AE41-E7E49C53CFE0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-17</Value>
@@ -21,6 +82,19 @@
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Guitar Distortion (Custom)" ID="{4824133C-F3A6-4460-9F81-9BE7A6C77B9F}" ShortID="1007731030" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+											<PropertyList>
+												<Property Name="DistortionDrive" Type="Real32" Value="100"/>
+												<Property Name="DistortionTone" Type="Real32" Value="100"/>
+												<Property Name="DistortionType" Type="int32" Value="4"/>
+												<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
+												<Property Name="PostEQBand3Frequency" Type="Real32" Value="634"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
@@ -35,6 +109,40 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="BypassEffect1"/>
+									<Property Name="Lowpass"/>
+									<Property Name="MakeUpGain"/>
+									<Property Name="Pitch"/>
+									<Property Name="Volume"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Box" ID="{082E26B7-2A50-4C86-B3B7-F1BC4ADCB5B2}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="PickedUp" ID="{17F3DB1F-2802-485A-91E0-159682396C9B}"/>
+										<CustomState Name="" ID="{4BAB7A4C-2846-47E2-92C3-B1DF7F4CF006}" ShortID="103800158">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32" Value="-200"/>
+												<Property Name="Volume" Type="Real64" Value="2"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="NotPickedUp" ID="{D4A1B720-D245-4A12-978B-71BD745E1120}"/>
+										<CustomState Name="" ID="{C47AA286-B17A-4D57-BA5B-FE248D24C08D}" ShortID="90075309">
+											<PropertyList>
+												<Property Name="BypassEffect1" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64" Value="-3"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Clock Loop Dry" ID="{4F839FFE-B04C-42B2-AF7A-F59F6678F535}" Platform="Linked"/>
