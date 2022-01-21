@@ -13,12 +13,15 @@ This is a full audio implemention of a apartment scene. I'll be usisng Wwise to 
 
 
 Phase 0 demo vid: https://www.youtube.com/watch?v=rMLAnU6INok
-## Phase 1: Audio (Currently working on)
+
+## Phase 1: Audio (Completed)
 - [x] Passive SFX: Refrigerator hum,  Clock, tv turned on/off, neighbors arguing
 - [x] Active SFX: Footsteps
 - [x] SFX state change: clock gets louder + 2d audio, set up for Phase 2  
 
-## Phase 2: Music
+Phase 1 demo vid: https://www.youtube.com/watch?v=kEEj02tUAnA
+
+## Phase 2: Music (Currently working on)
 - [ ] Create Music with different layers, based on trigger zones in Phase 0
 - [ ] Develop interactive music system  
 - [ ] test system fully
