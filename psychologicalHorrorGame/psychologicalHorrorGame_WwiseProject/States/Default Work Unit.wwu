@@ -10,6 +10,15 @@
 						<State Name="NotPickedUp" ID="{D4A1B720-D245-4A12-978B-71BD745E1120}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="MusicState" ID="{3B35AE7D-FA11-41E2-8806-BDFF1DA7243B}">
+					<ChildrenList>
+						<State Name="None" ID="{4DB14CF9-30F4-423C-8F6E-158BAAECC8B8}"/>
+						<State Name="PickUpBox" ID="{744746E1-595C-4733-8E5B-D690D4687709}"/>
+						<State Name="NearClockTVOn" ID="{49FC916C-1F3E-4272-9E3C-71FDCAF0A475}"/>
+						<State Name="NearClockTVOff" ID="{A2D0397E-F461-4613-8961-0CFA55FD95C3}"/>
+						<State Name="NoPickUpBox" ID="{F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

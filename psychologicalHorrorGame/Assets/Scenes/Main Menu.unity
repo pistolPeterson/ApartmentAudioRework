@@ -274,6 +274,14 @@ MonoBehaviour:
   spawnpoint: {fileID: 1180026526}
   prefab: {fileID: 5632575620931239419, guid: 25edef9f07e23de479b947f2e33649e2, type: 3}
   tvIsOn: 0
+  playTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  stopTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &87289645 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445052, guid: d0bd8c282c04079498689c97fc865c70, type: 3}
@@ -3764,7 +3772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: 188}
+  m_AnchoredPosition: {x: 293, y: 188}
   m_SizeDelta: {x: 648.9971, y: 88.2125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264315752
@@ -4305,6 +4313,14 @@ MonoBehaviour:
   spawnpoint: {fileID: 0}
   prefab: {fileID: 0}
   tvIsOn: 0
+  playTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  stopTV:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &463393760 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3e36b10092da9e3468f154949204c9b1, type: 3}

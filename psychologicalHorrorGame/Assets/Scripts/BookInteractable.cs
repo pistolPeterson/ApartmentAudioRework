@@ -7,7 +7,7 @@ public class BookInteractable : Interactable
     //this script is for the package
 
     public AK.Wwise.RTPC myBox;
-
+    public AK.Wwise.State stateGang;
 
     AudioStateManager asm; 
     //make sure layer is interactable as well
@@ -35,7 +35,7 @@ public class BookInteractable : Interactable
 
         gameObject.SetActive(false);
 
-       
+        stateGang.SetValue();
 
     }
     public override void OnFocus()

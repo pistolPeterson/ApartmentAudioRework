@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06657a0ef276d234dbd3e9b458679f22, type: 3}
+  m_Name: F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88
+  m_EditorClassIdentifier: 
+  objectName: NoPickUpBox
+  id: 3941644139
+  guid: F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88
+  WwiseStateGroupReference: {fileID: 11400000, guid: 3fc12441e36996144a86ccaa80c6697d, type: 2}

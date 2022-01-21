@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bd26fe6dab57664a9946ef5b073f0d70
     GuidInternal: 
-    m_lastTime: -8585590893326450210
+    m_lastTime: -8585588139981005142
     List:
     - name: Main
       guid: e01a776c974af94db083b25ef3aa63b6
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 36b847dab3fa7b4c80058f37e905345e
     GuidInternal: 
-    m_lastTime: -8585590893326529998
+    m_lastTime: -8585588139980606541
     List:
     - name: Enviroment
       guid: 8aee2e58b855d4469dbec4e6b1c8d9e9
@@ -210,6 +210,23 @@ MonoBehaviour:
       maxAttenuation: 5
       maxDuration: 55.000023
       minDuration: 55.000023
+    - name: Play_FirstMusic
+      guid: 6ca8023519e19b46bdbcac8d13d8f3f0
+      id: 274469237
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 36b847dab3fa7b4c80058f37e905345e
+      - ElementName: Play_FirstMusic
+        ObjectType: 3
+        guid: 6ca8023519e19b46bdbcac8d13d8f3f0
+      Path: Events\Default Work Unit\Play_FirstMusic
+      maxAttenuation: 0
+      maxDuration: 23976
+      minDuration: 23976
     - name: Play_Footsteps
       guid: 73664f56c4c28e4ca2046870b4bf84a0
       id: 3854155799
@@ -330,7 +347,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
     GuidInternal: 
-    m_lastTime: -8585591328672122850
+    m_lastTime: -8585588128184418674
     List:
     - name: Box
       guid: b7262e08502a864cb3b7f1bc4adcb5b2
@@ -395,6 +412,104 @@ MonoBehaviour:
         - ElementName: PickedUp
           ObjectType: 8
           guid: 1fdbf31702285a4891e0159682396c9b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: MusicState
+      guid: 7dae353b11fae2418806bdff1da7243b
+      id: 1021618141
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+      - ElementName: MusicState
+        ObjectType: 9
+        guid: 7dae353b11fae2418806bdff1da7243b
+      Path: States\Default Work Unit\MusicState
+      values:
+      - name: NearClockTVOff
+        guid: 7e39d0a261f4134689610cfa55fd95c3
+        id: 2022969304
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: MusicState
+          ObjectType: 9
+          guid: 7dae353b11fae2418806bdff1da7243b
+        - ElementName: NearClockTVOff
+          ObjectType: 8
+          guid: 7e39d0a261f4134689610cfa55fd95c3
+      - name: NearClockTVOn
+        guid: 6c91fc493e1f72429e3c71fdcaf0a475
+        id: 1134297090
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: MusicState
+          ObjectType: 9
+          guid: 7dae353b11fae2418806bdff1da7243b
+        - ElementName: NearClockTVOn
+          ObjectType: 8
+          guid: 6c91fc493e1f72429e3c71fdcaf0a475
+      - name: None
+        guid: f94cb14df4303c428f6e158baaecc8b8
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: MusicState
+          ObjectType: 9
+          guid: 7dae353b11fae2418806bdff1da7243b
+        - ElementName: None
+          ObjectType: 8
+          guid: f94cb14df4303c428f6e158baaecc8b8
+      - name: NoPickUpBox
+        guid: c6f7c9f0e53bcd4e9a0563b9c77d7d88
+        id: 3941644139
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: MusicState
+          ObjectType: 9
+          guid: 7dae353b11fae2418806bdff1da7243b
+        - ElementName: NoPickUpBox
+          ObjectType: 8
+          guid: c6f7c9f0e53bcd4e9a0563b9c77d7d88
+      - name: PickUpBox
+        guid: e14647745c5933478e5bd690d4687709
+        id: 4186279120
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 0128cbc412ee6d4e841ab8cf16f1f0d7
+        - ElementName: MusicState
+          ObjectType: 9
+          guid: 7dae353b11fae2418806bdff1da7243b
+        - ElementName: PickUpBox
+          ObjectType: 8
+          guid: e14647745c5933478e5bd690d4687709
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -477,7 +592,7 @@ MonoBehaviour:
     m_lastTime: -8585590893325776211
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c0000001600000017000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000000c0000000d0000000e000000100000001600000028000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

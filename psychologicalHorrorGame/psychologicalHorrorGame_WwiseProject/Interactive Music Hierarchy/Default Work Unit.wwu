@@ -1,6 +1,1167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D89D1481-BFDD-4DF8-B0B9-10814806CBE3}" SchemaVersion="103">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{D89D1481-BFDD-4DF8-B0B9-10814806CBE3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D89D1481-BFDD-4DF8-B0B9-10814806CBE3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Apartment Scene Stems" ID="{406845C5-51D4-4BDA-8D8F-A77CF3F8A5EA}" ShortID="326844862">
+					<ChildrenList>
+						<MusicSegment Name="Horror Interactive Music - Master" ID="{A9CB19CA-42C3-4B15-B2F0-6A76BB9B50A7}" ShortID="799087552">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Horror Interactive Music - Master" ID="{63B66F99-E8BF-4A47-98CA-B8D109911AC2}" ShortID="1002627421">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Master" ID="{5F63B11F-7AB1-4697-8F8E-A23B790BB5DD}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="690423230"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{47CAA47F-E39A-4EE7-9BA5-E140225195BA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{63E759B4-32FC-4257-8FB5-52B69FD2BD4D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Master" ID="{F9AAA01C-CB40-4CA3-9D03-3FCBBF7BE921}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Master" ID="{5F63B11F-7AB1-4697-8F8E-A23B790BB5DD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{CB4E7CFE-44DB-458A-9775-91C10F1405DD}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{FFABFBEB-D8B8-4769-BAB7-AD199A7B9093}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="24000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Horror Interactive Music - Ominous Brass" ID="{8FB32E44-F1A9-48E2-A633-D6342C7031A8}" ShortID="298105680">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Horror Interactive Music - Ominous Brass" ID="{56A3B0BE-A037-455C-87C0-9BA842EFDECD}" ShortID="1014246224">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Ominous Brass" ID="{74104AD5-03DF-49F7-97A5-B0A4620D7AB4}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Ominous Brass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665898241"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{81655EEF-7F6D-463D-88C6-CBB33033E75B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{824EA121-254A-49EF-B75F-42519A746C65}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Ominous Brass" ID="{AD0E8014-50B9-414C-85F7-11F7AAB6E290}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Ominous Brass" ID="{74104AD5-03DF-49F7-97A5-B0A4620D7AB4}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{DFF90B42-0FDC-461D-B8D7-71E16CEEA82E}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="4000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F259FDA8-EA57-4534-9BF1-F2B3F0B15BFF}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="20000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Horror Interactive Music - Ostin Low Strings" ID="{A92D2A79-657B-4EF0-9B0D-9AED93E0E9AC}" ShortID="1015273809">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Horror Interactive Music - Ostin Low Strings" ID="{63126CB3-E839-4C31-B63E-369AA24929D6}" ShortID="414434454">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Ostin Low Strings" ID="{B5FB3CD9-730D-491D-95FB-688327D77E08}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Ostin Low Strings.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="2036240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{30DE89BD-00B6-4857-A841-0941CFCDD91F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{BC3E66B1-2D8C-4E23-B7B6-FEACE6F3495D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Ostin Low Strings" ID="{195C3CD0-4DD4-4D0E-83D0-90579AC66D77}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Ostin Low Strings" ID="{B5FB3CD9-730D-491D-95FB-688327D77E08}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2357113C-E16A-4C6C-883E-24B845A48B26}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="4000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{BD89D4E3-98EB-4DC2-9901-AAABD9E33DE1}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="20000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Horror Interactive Music - Percussion" ID="{320141CB-1CC1-4FA0-93E3-4DBB58245759}" ShortID="673704964">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Horror Interactive Music - Percussion" ID="{418E1166-667E-41B6-9E7B-89D69763A7D5}" ShortID="39833586">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Percussion" ID="{5EE1F4BE-3CA3-4F6D-9A22-F5CDFD0E93AC}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Percussion.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571873040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A743FA9C-DC01-4417-807D-35EEEF211A9F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8866E2F6-BE4A-4C6E-8F30-6071124B5436}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Percussion" ID="{C25C9060-CD48-44CB-9724-7681AE20AAA5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Percussion" ID="{5EE1F4BE-3CA3-4F6D-9A22-F5CDFD0E93AC}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{E3356568-F422-4A96-96BF-91D56C8F7A9E}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{C62653B4-D559-4E9C-B134-4D416CE6EA87}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="24000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Horror Interactive Music - Strings" ID="{51B332E4-E828-442E-8AE3-BA21B3FFFE46}" ShortID="902477640">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Horror Interactive Music - Strings" ID="{E6B83189-A9E3-48AD-83C9-67290E6A8301}" ShortID="1050733549">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Strings" ID="{C749E574-5D12-427F-A57F-1F80BD7D21A3}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Strings.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618232603"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E9E385CC-434D-486E-9A30-1C3BD4ED4371}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2D885A5F-10F1-45A6-BBFC-04099583F4A5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Strings" ID="{B5C4D3DC-E239-4E5D-AF21-BFA87A1EEEEA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Strings" ID="{C749E574-5D12-427F-A57F-1F80BD7D21A3}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{16E998DC-5BFF-45FD-8BCF-F3E7C274AED9}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{C1D9A865-916B-4E53-87AE-87260FF8F8AE}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="24000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Horror Interactive Music - Synth" ID="{5698160F-7026-42D5-B746-AE9F97B9C8D1}" ShortID="1011687718">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Horror Interactive Music - Synth" ID="{FB0871E3-834B-459D-8B9B-C6C4D1339D8D}" ShortID="761508515">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Synth" ID="{0370D8AF-28D2-4680-B7BB-158FAD754046}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Synth.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="439944369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A7EC751F-55C7-4164-8874-9E8971B384C8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0FC7DCBA-060A-481F-8F31-8D5378F23D64}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Synth" ID="{AC25AE60-492F-4926-8E8A-68EBDC306F61}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Synth" ID="{0370D8AF-28D2-4680-B7BB-158FAD754046}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2C01E811-BF01-4250-AE11-8B3B3A7D49A8}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E6EBF7ED-23CF-41BE-8C92-B594680785FE}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="24000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+				<MusicPlaylistContainer Name="FirstMusic" ID="{D002BA78-98E1-4E34-8D6A-1363AC393E74}" ShortID="467693399">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Soundtrack" ID="{6FF5011F-219F-48B2-ACA9-DDBA7F79CD0F}" ShortID="686026773">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Horror Interactive Music - Ominous Brass" ID="{2CA4F9C7-49A5-4D30-9C3D-046705161B97}" ShortID="645660419">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Ominous Brass" ID="{E3F0355A-A987-43CA-B2E8-5FDAAD4577D5}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Ominous Brass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665898241"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="5">
+												<StateGroupRef Name="MusicState" ID="{3B35AE7D-FA11-41E2-8806-BDFF1DA7243B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="NearClockTVOn" ID="{49FC916C-1F3E-4272-9E3C-71FDCAF0A475}"/>
+												<CustomState Name="" ID="{476DDE75-F3CF-434B-9ED5-98A282D2C73E}" ShortID="399855150"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NearClockTVOff" ID="{A2D0397E-F461-4613-8961-0CFA55FD95C3}"/>
+												<CustomState Name="" ID="{9493E801-A3DC-4185-ACD8-13C2202CBBD4}" ShortID="127597600"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="PickUpBox" ID="{744746E1-595C-4733-8E5B-D690D4687709}"/>
+												<CustomState Name="" ID="{D7D946E1-CE82-4BA4-9D66-227ECA41ADF2}" ShortID="677072603"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NoPickUpBox" ID="{F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88}"/>
+												<CustomState Name="" ID="{0F57494C-AEEF-4966-B4B1-096C334F25D7}" ShortID="676704993">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B547F2C0-1D0F-492B-B5D2-B6E422749C2F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CDF6427D-C118-49E7-A41F-6B7AA3140084}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Ominous Brass" ID="{010AB03D-0E28-46C2-B764-2ADA12BBEC14}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Ominous Brass" ID="{E3F0355A-A987-43CA-B2E8-5FDAAD4577D5}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{A1AB6A1D-0335-4377-A3A7-1BA1E035F448}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{8A82CAC5-A915-41E8-A9CF-4F37407B6ACD}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{B9E05907-DBF7-46BD-800E-E6B4A1AFC2F9}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Interactive Music - Ostin Low Strings" ID="{C93FDC02-6222-4A48-AE6E-8A16D84B0390}" ShortID="699629666">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Ostin Low Strings" ID="{9EA045B6-79CA-4B5B-9372-8F156965CACC}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Ostin Low Strings.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="2036240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="MusicState" ID="{3B35AE7D-FA11-41E2-8806-BDFF1DA7243B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="NearClockTVOn" ID="{49FC916C-1F3E-4272-9E3C-71FDCAF0A475}"/>
+												<CustomState Name="" ID="{77762984-FE88-4733-B9DB-0174B8CB367F}" ShortID="476921095"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NearClockTVOff" ID="{A2D0397E-F461-4613-8961-0CFA55FD95C3}"/>
+												<CustomState Name="" ID="{F2F91603-47B6-4C88-BECF-1EE9373E009F}" ShortID="744856197"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="PickUpBox" ID="{744746E1-595C-4733-8E5B-D690D4687709}"/>
+												<CustomState Name="" ID="{28AC83FD-C4E0-4FAF-A8A5-BEA0054212C9}" ShortID="1063019534"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NoPickUpBox" ID="{F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88}"/>
+												<CustomState Name="" ID="{2400EF4C-85A3-4B05-B7D6-508EB5AD9331}" ShortID="151173379">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CB6E547A-C781-4A57-9FBF-3C1D29E3B412}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8BCD626A-52F4-4745-8AD3-81407D2FD279}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Ostin Low Strings" ID="{33458FA3-7A96-4F2C-A314-4FC9DD8A5AA7}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="2.27373675443232E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Ostin Low Strings" ID="{9EA045B6-79CA-4B5B-9372-8F156965CACC}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{999366FC-4DB1-4799-B558-3DC06D275AB0}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{ADE91E35-A38A-42F5-BDD0-232C14FACD5D}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{7FA3AAC9-9ABE-4901-B9D0-8B3BFDC40FDE}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Interactive Music - Percussion" ID="{7639EB3A-B46D-4A1C-94AD-07CAEB086345}" ShortID="668719034">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Percussion" ID="{5A5FD6E8-4530-4220-8C85-F218850331C8}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Percussion.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571873040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="5">
+												<StateGroupRef Name="MusicState" ID="{3B35AE7D-FA11-41E2-8806-BDFF1DA7243B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="NearClockTVOn" ID="{49FC916C-1F3E-4272-9E3C-71FDCAF0A475}"/>
+												<CustomState Name="" ID="{2CD3D93B-A862-44A4-B7A2-07486B66D94A}" ShortID="1046484532"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NearClockTVOff" ID="{A2D0397E-F461-4613-8961-0CFA55FD95C3}"/>
+												<CustomState Name="" ID="{8730B8C5-2591-4A74-B3B7-3FCB2C4FD723}" ShortID="216126704"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="PickUpBox" ID="{744746E1-595C-4733-8E5B-D690D4687709}"/>
+												<CustomState Name="" ID="{79E2FC60-2DC2-4F34-8260-B65B175A53DC}" ShortID="974552683">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NoPickUpBox" ID="{F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88}"/>
+												<CustomState Name="" ID="{864FD35F-07D7-4CFC-9F78-1817DD472180}" ShortID="112691355">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{81656B80-7CA0-4D18-B3EF-078BDA4A4C02}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{550C6F2F-7478-4551-BC9E-28587664D876}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Percussion" ID="{1B051472-66A1-4D18-8CB4-5AADC052AC51}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Percussion" ID="{5A5FD6E8-4530-4220-8C85-F218850331C8}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Interactive Music - Strings" ID="{8E094B6C-4DE7-4DE9-95DA-F29ACA70C368}" ShortID="1054204478">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Strings" ID="{FCD937C5-667F-4579-9B05-497E6988ACA7}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Strings.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618232603"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="5">
+												<StateGroupRef Name="MusicState" ID="{3B35AE7D-FA11-41E2-8806-BDFF1DA7243B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="NearClockTVOn" ID="{49FC916C-1F3E-4272-9E3C-71FDCAF0A475}"/>
+												<CustomState Name="" ID="{BD661087-5343-40A5-A852-7B581A7F973F}" ShortID="687245644"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NearClockTVOff" ID="{A2D0397E-F461-4613-8961-0CFA55FD95C3}"/>
+												<CustomState Name="" ID="{406A020B-6BD9-4E18-A972-DA81C8DC7582}" ShortID="735251811">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="PickUpBox" ID="{744746E1-595C-4733-8E5B-D690D4687709}"/>
+												<CustomState Name="" ID="{BC4D0315-9F56-4DAE-809E-6888F0BDA660}" ShortID="968853179">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NoPickUpBox" ID="{F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88}"/>
+												<CustomState Name="" ID="{B690DFE4-2C95-4BDD-A6D9-3C06D046225C}" ShortID="697109518">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FA6347B4-6E2F-4417-9036-7722F74A3F9E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E41F542D-8343-4DC9-B51B-230B57BF5832}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Strings" ID="{14A80633-8AED-40E6-BBA6-D2922CD8ED34}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Strings" ID="{FCD937C5-667F-4579-9B05-497E6988ACA7}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Interactive Music - Synth" ID="{CDEF7E55-8E39-4565-ACD1-45B778C5D68D}" ShortID="578997630">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01F3B2B1-9885-4F56-AC73-A49CA426989A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E130A76D-77E5-473D-90B0-CA604254836D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Interactive Music - Synth" ID="{5E57A7CB-572F-425B-BD45-97ACEAA5E154}">
+											<Language>SFX</Language>
+											<AudioFile>Apartment Scene Stems\Horror Interactive Music - Synth.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="439944369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="MusicState" ID="{3B35AE7D-FA11-41E2-8806-BDFF1DA7243B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="NearClockTVOn" ID="{49FC916C-1F3E-4272-9E3C-71FDCAF0A475}"/>
+												<CustomState Name="" ID="{197DFE90-009F-44E6-BA1E-926DC111BD69}" ShortID="3118134"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NearClockTVOff" ID="{A2D0397E-F461-4613-8961-0CFA55FD95C3}"/>
+												<CustomState Name="" ID="{59AEDE20-EA26-4C91-93CC-D73173540133}" ShortID="285580288">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="53"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="PickUpBox" ID="{744746E1-595C-4733-8E5B-D690D4687709}"/>
+												<CustomState Name="" ID="{34A8CB57-C190-4822-8FD7-09C46659A212}" ShortID="325793009">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NoPickUpBox" ID="{F0C9F7C6-3BE5-4ECD-9A05-63B9C77D7D88}"/>
+												<CustomState Name="" ID="{A4E73297-5A59-4F89-A946-DD41D1E50337}" ShortID="494876715">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E5A3B2A1-D5EC-4D45-B619-E0294522C390}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1482CA10-B480-488A-AA10-CBB6E023546E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Interactive Music - Synth" ID="{20C636E5-D3E0-452F-9F6F-79C5B3493050}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Interactive Music - Synth" ID="{5E57A7CB-572F-425B-BD45-97ACEAA5E154}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{8A5E74DF-433D-4A45-9738-E8F626ACD2E7}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="4000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{EF37A2D1-C56D-4187-AD48-FD91ECC4BF8C}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="20000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="" ID="{AF34100A-C791-453A-A9DC-F6B07F9F6E30}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="2"/>
+													<Property Name="TimeMs" Type="Real64" Value="4000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{8B4EA307-591D-4082-A1EF-42EDEF28978A}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{002B48E1-A9D6-4CEC-A718-DBD2A4271B3C}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{D686C482-EAA7-47DC-BF79-E675733F8310}" ShortID="279428392">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{F29E9722-4FFC-4F88-A334-89CD6A49AE6E}" ShortID="437156420">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="999"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Soundtrack" ID="{6FF5011F-219F-48B2-ACA9-DDBA7F79CD0F}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

@@ -9,6 +9,7 @@
 						<ObjectRef Name="Play_TV_Static" ID="{F5B2566F-AA17-457D-ABF2-AD29B533F853}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Couple_Arguing_BOB" ID="{35AE2A83-B406-4585-AEDA-2DA9A2739C4E}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Clock_Loop_Parameter" ID="{BFFFC8B6-C8B2-463E-AB79-804DFD747AD5}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FirstMusic" ID="{3502A86C-E119-469B-BDBC-AC8D13D8F3F0}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_TV_Static" ID="{ECA9F739-9B38-48CE-A8BB-0789F9A80BF5}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{564F6673-C2C4-4C8E-A204-6870B4BF84A0}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Refrigerator" ID="{EE105AE3-E4F7-4F12-89BB-D10FC087C490}" WorkUnitID="{DA47B836-FAB3-4C7B-8005-8F37E905345E}" Origin="Manual" Filter="7"/>

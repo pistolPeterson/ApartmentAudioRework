@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_CLOCK = 4070979672U;
         static const AkUniqueID PLAY_CLOCK_LOOP_PARAMETER = 573597025U;
         static const AkUniqueID PLAY_COUPLE_ARGUING_BOB = 1486295004U;
+        static const AkUniqueID PLAY_FIRSTMUSIC = 274469237U;
+        static const AkUniqueID PLAY_FIRSTMUSIC_REAL = 469356356U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_REFRIGERATOR = 2992121592U;
         static const AkUniqueID PLAY_TV_STATIC = 1897478513U;
@@ -35,6 +37,20 @@ namespace AK
                 static const AkUniqueID PICKEDUP = 3593755026U;
             } // namespace STATE
         } // namespace BOX
+
+        namespace MUSICSTATE
+        {
+            static const AkUniqueID GROUP = 1021618141U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NEARCLOCKTVOFF = 2022969304U;
+                static const AkUniqueID NEARCLOCKTVON = 1134297090U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOPICKUPBOX = 3941644139U;
+                static const AkUniqueID PICKUPBOX = 4186279120U;
+            } // namespace STATE
+        } // namespace MUSICSTATE
 
     } // namespace STATES
 
