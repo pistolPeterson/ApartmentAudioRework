@@ -12,11 +12,13 @@ public class ClockTriggerScript : MonoBehaviour
 
     private float timer = 0.0f;
     private float waitTimeDialogue = 3.0f;
-  //  private float waitTimeMusic = 4.0f;
+    //  private float waitTimeMusic = 4.0f;
+    public AK.Wwise.State normState;
+    public AK.Wwise.State TvOnState;
+    public AK.Wwise.State TvOffState;
 
 
-   
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,12 +37,24 @@ public class ClockTriggerScript : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-       
+
+
         timer += Time.deltaTime;
        // Debug.Log(timer);
         if (other.CompareTag("Player")) //If player is in clock trigger zone 
         {
-            if((timer > waitTimeDialogue) && (dm.getDialogue1State() == false) && (asm.getCreepyState() == false)) 
+            if(asm.getCreepyState() == false)
+            {
+                //do nothing 
+            } 
+            else
+            {
+                TvOnState.SetValue();
+            }
+
+
+           
+            if ((timer > waitTimeDialogue) && (dm.getDialogue1State() == false) && (asm.getCreepyState() == false)) 
             {
               
                 dm.playDialogue1();
@@ -63,8 +77,21 @@ public class ClockTriggerScript : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
             timer = 0; //reset timer
-    }
 
+            if (asm.getCreepyState() == false)
+            {
+                //do nothing
+            } 
+            else
+            {
+                normState.SetValue();
+            }
+
+            
+        }
+
+    }
 
 }

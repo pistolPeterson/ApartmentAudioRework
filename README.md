@@ -21,39 +21,18 @@ Phase 0 demo vid: https://www.youtube.com/watch?v=rMLAnU6INok
 
 Phase 1 demo vid: https://www.youtube.com/watch?v=kEEj02tUAnA
 
-## Phase 2: Music (Currently working on)
-- [ ] Create Music with different layers, based on trigger zones in Phase 0
-- [ ] Develop interactive music system  
-- [ ] test system fully
+## Phase 2: Music (Completed)
+- [x] Create Music with different layers, based on trigger zones in Phase 0
+- [x] Develop interactive music system  
 
-## Phase 3: Dialogue (im not a voice actor :) )
-- [ ] Create voice files 
-- [ ] connect the voice files to play, when activated by the trigger zones in Phase 0 
-- [ ] Sidechain dialogue vs the audio/music
-- [ ] Test dialogue system fully
 
-## Phase 4: Cleaning up and Optimizations
-- [ ] Test all possible interactions in gamee
-- [ ] add end credits scene to finish game
-- [ ] Make Unity and Wwise project more organized 
+## Phase 3: Cleaning up and Optimizations (Currently working on)
+- [ ] Test all possible interactions in game
 - [ ] Optimize WWise to use as little memory and processing power as possible 
 - [ ] Create Build of game! 
 
-
-
-## Installation For WWise and Unity users 
-For anyone who wants to have the project with full control. NOT reccomended at all if you have no experience with WWise or audio middleware software. 
-Information coming soon. The assumption will be that you know how Wwise works and how to integrate it with Unity
-
-
-## Installation for Unity Users 
-Information coming soon. Im trying to see if I can make a seperate branch with only the unity project and the specific soundbanks so you dont have to use the WWise software
-
-## For playtesters
+## Want to play the game? 
 Link will be here for a build of the game once I have a good demo in place 
-
-
-
 
 
 ## Demo Video
