@@ -26,9 +26,8 @@ Phase 1 demo vid: https://www.youtube.com/watch?v=kEEj02tUAnA
 - [x] Develop interactive music system  
 
 
-## Phase 3: Cleaning up and Optimizations (Currently working on)
-- [ ] Test all possible interactions in game
-- [ ] Optimize WWise to use as little memory and processing power as possible 
+## Phase 3: Cleaning up (Currently working on)
+- [x] Test all possible interactions in game
 - [ ] Create Build of game! 
 
 ## Want to play the game? 
